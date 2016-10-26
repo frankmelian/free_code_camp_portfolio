@@ -3,7 +3,7 @@ body{
 	padding: 0px;
 }
 .welcome_div{
-   background-color:#59A6C0 ;
+   background-color:#2DB4BE ;
    background-size: cover;
    height: 100vh;
    margin: 0 auto;
@@ -12,18 +12,80 @@ body{
    flex-direction: column;
    justify-content: center;
 }
-.welcome_div p {
+
+.welcome_div h2 {
 	text-align: center;
 	padding-top: 100px;
+    font-family: 'Bungee Hairline', cursive;
+	font-size: 80px !important;
+	color: #E8E8E8;
+    font-weight:bolder;
+
 }
 .navbar_custom{
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 20;
+
 }
+.projects-container{
+	background-color:#636EDE;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
 #content p {
 	z-index: 10px;
 	position: relative;
 }
+
+.thumbnail > img{
+	height:300px;
+	width:500px;
+  }
+.thumbnail{
+	margin: 20px;
+}
+.page-header > h1{
+	text-align: center !important;
+}
+nav {
+	margin:0px auto;
+	padding: 0px auto;
+}
+
+/*
+image have is vertical for some reason this is to fix that bug
+*/
+/* Rotate div */
+#me{
+	  -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+    transform: rotate(1deg);
+}
+.page-header{
+	background-color:#636EDE;
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+	margin: -20px -20px -20px 0px;
+	padding: -20px -20px -20px -20px;
+	text-align: center !important;
+    font-family: 'Bungee Hairline', cursive;
+	color: #F3F3F7;
+	font-size: 40px;
+}
+.about-me{
+	background-color:#988EAF;
+	background-size: cover;
+	width: 100%;
+	margin: -5px 0px -10px 0px;
+    color: #F3F3F7;
+    font-size:40px;
+}
+
 

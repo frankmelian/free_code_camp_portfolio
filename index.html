@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title></title>
+	<title>Frank Melian Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/page.css" type="text/css">
-
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 <body>
+
 <!-- welcome header div -->
 <div class="welcome_div">
 <header>
-<p>Hello from welcome div</p>
+<h2>Hello There There Welcome to my Portfolio Page</h2>
 </header>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-  <nav class="navbar navbar-default navbar-custom ">
+  <nav class="navbar navbar-inverse navbar-custom " id="Portfolio">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -44,38 +35,91 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#About">About</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav><!-- End of navbar -->
 
-
-<div class="container-fluid">
-<div class="col-md-10" id="content">
-<p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	<div class="page-header">
+	  <h1 class="center">These are project that i have done</h1>
+	</div>
 
 
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
-Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+
+
+<div class="projects-container" id="About">
+	<div class="row">
+	  <div class="col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/theme.png" alt="mytheme" >
+	      <div class="caption">
+	        <h3>Wordpress Theme</h3>
+	        <p>This is a theme of wordpress that i modified called shop isle the code is not on github all i can do is show you my page
+					as i did not develop completely this theme is only to show that i modified it.</p>
+	        <p><a href="http://webassemblr.com" class="btn btn-info" role="button">View</a>
+	      </div>
+	    </div>
+	  </div>
+
+
+	  <div class="col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/wordp.png" alt="wordpress"  >
+	      <div class="caption">
+	        <h3>Wordpress Theme</h3>
+	        <p>As i learn on how to use wordpress i am currenlty developing a theme i am working at the moment on a plugin for the theme
+					i am looking to make ajax requests from github and integrate them to my theme.</p>
+	        <p <a href="https://github.com/frankmelian/wp_webassemblr_theme" class="btn btn-info" role="button">View On Github</a></p>
+	      </div>
+	    </div>
+	  </div>
+
+
+
+	  <div class="col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/tribute.png" alt="tributepage" >
+	      <div class="caption">
+	        <h3>Tribute Page</h3>
+	        <p>Project Made for free codecamp in wich i tribute a book called the alchemist i recommend you to read it if
+					you haven't is an excellent boook that have changed my life an so many others like rihana or will smith </p>
+	        <p> <a href="http://codepen.io/frankmelian01/pen/yaRGkY/" class="btn btn-info" role="button">View On CodePen</a></p>
+	      </div>
+	    </div>
+	  </div>
+</div>
 </div>
 
+
+<!-- First Container -->
+<div class="container-fluid  text-center about-me">
+  <h3>Who Am I?</h3>
+  <img src="img/me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="frank" width="350" height="350" id="me">
+  <h3>I am a software-engineer</h3>
+	<p>Now wait a minute if you are a newb how can you call yourself an engineer aren't you learning anyways ?.
+		Very simple fake it until you make it i know i am just a junior level developer but if i don't believe in what i say ill
+		never be who i want to become<p/>
+
+<!-- Second Container -->
+  <h3 class="margin">OK where can i find you ? </h3>
+  <a href="https://github.com/frankmelian" class="btn btn-info btn-lg"><i class="fa fa-github" aria-hidden="true"></i></a>
+	<a href="https://www.linkedin.com/in/frank-melian-68a944123" class="btn btn-info btn-lg"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	<a href="https://twitter.com/frank_melian0" class="btn btn-info btn-lg"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 </div>
-<div class="footer">
-
-
-
+</div>
+</p>
+</p>
+</div>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 </div><!-- End of body content div -->
